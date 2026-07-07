@@ -376,15 +376,15 @@ function Clients() {
 }
 
 /* ──────────────────── Download App ──────────────────── */
-function DownloadApp() {
-  return (
-    <div className="bg-brand-800 text-white py-6 border-b border-brand-700">
-      <div className="max-w-7xl mx-auto px-4 lg:px-8 flex justify-center items-center gap-4 text-xl font-semibold">
-        <span>📱 Click on the image to download</span>
-      </div>
-    </div>
-  )
-}
+// function DownloadApp() {
+//   return (
+//     <div className="bg-brand-800 text-white py-6 border-b border-brand-700">
+//       {/* <div className="max-w-7xl mx-auto px-4 lg:px-8 flex justify-center items-center gap-4 text-xl font-semibold">
+//         <span>📱 Click on the image to download</span>
+//       </div> */}
+//     </div>
+//   )
+// }
 
 /* ──────────────────── Footer ──────────────────── */
 function Footer() {
@@ -488,7 +488,7 @@ export default function App() {
       <Team />
       <CallBack />
       <Clients />
-      <DownloadApp />
+      {/* <DownloadApp /> */}
       <Footer />
     </div>
   )
